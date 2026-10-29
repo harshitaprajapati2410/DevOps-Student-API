@@ -1,0 +1,9 @@
+python -m venv venv
+pip install fastapi uvicorn
+main.py file banai 
+uvicorn main:app --reload
+Create the model folder : Create studentModel.py
+Create the controller folder : Create studentcontroller.py
+Create the routers folder : Create studentrouter.py
+pip freeze > requirements.txt
+.gitignore file banao
